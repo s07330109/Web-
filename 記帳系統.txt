@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>記帳系統</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color:#FFC9C9;">
+<div align="center" class="container">
+  <div class="jumbotron">
+    <h1 class="display-4"><p class="font-weight-bold">記帳系統</p></h1>
+    <p class="font-weight-bold">用簡單的記帳系統，一起養成記帳的習慣吧!</p>
+  </div>
+</div>
+<div class="container">
+    <form class="form-inline">
+    <label><p class="text-primary">消費日期:</p></label>
+    <input type="date"   class="form-control" id="date1" name="date">
+    <label><p class="text-primary">分類:</p></label>
+            <select id="select1" name="select" class="form-control">
+                <option>請選擇消費種類</option>
+                <option>餐飲費</option>
+                <option>娛樂費</option>
+                <option>交通費</option>
+                <option>生活費</option>
+                <option>其他</option>
+            </select>
+    <label for="number"><p class="text-primary">金額:</p></label>
+    <input type="number" class="form-control" id="number1" name="number" placeholder="輸入金額">
+    <div class="alert alert-success alert-dismissible fade show">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+     輸入消費的日期、項目及金額!
+  </div>
+ </form>
+
+
+  <label></label>
+  <form class="form-inline">
+    <label><p class="text-primary">消費日期:</p></label>
+    <input type="date"   class="form-control" id="date2" name="date">
+    <label><p class="text-primary">分類:</p></label>
+            <select id="select2" name="select" class="form-control">
+                <option>請選擇消費種類</option>
+                <option>餐飲費</option>
+                <option>娛樂費</option>
+                <option>交通費</option>
+                <option>生活費</option>
+                <option>其他</option>
+            </select>
+    <label for="number"><p class="text-primary">金額:</p></label>
+    <input type="number" class="form-control" id="number2" name="number" placeholder="輸入金額">
+    <div class="alert alert-success alert-dismissible fade show">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+     日期可以按旁邊的圖案直接選擇!
+  </div>
+  
+  </form>
+
+  <label></label>
+  <form class="form-inline">
+    <label><p class="text-primary">消費日期:</p></label>
+    <input type="date"   class="form-control" id="date3" name="date">
+    <label><p class="text-primary">分類:</p></label>
+            <select id="select3" name="select" class="form-control">
+                <option>請選擇消費種類</option>
+                <option>餐飲費</option>
+                <option>娛樂費</option>
+                <option>交通費</option>
+                <option>生活費</option>
+                <option>其他</option>
+            </select>
+    <label for="number"><p class="text-primary">金額:</p></label>
+    <input type="number" class="form-control" id="number3" name="number" placeholder="輸入金額">
+    <div class="alert alert-success alert-dismissible fade show">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+     按下儲存按鈕紀錄結果!
+  </div>
+
+  </form>
+
+  <label></label>
+  <form class="form-inline">
+    <label><p class="text-primary">消費日期:</p></label>
+    <input type="date"   class="form-control" id="date4" name="date">
+    <label><p class="text-primary">分類:</p></label>
+            <select id="select4" name="select" class="form-control">
+                <option>請選擇消費種類</option>
+                <option>餐飲費</option>
+                <option>娛樂費</option>
+                <option>交通費</option>
+                <option>生活費</option>
+                <option>其他</option>
+            </select>
+    <label for="number"><p class="text-primary">金額:</p></label>
+    <input type="number" class="form-control" id="number4" name="number" placeholder="輸入金額">
+
+
+  </form>
+
+  <label></label>
+  <form class="form-inline">
+    <label><p class="text-primary">消費日期:</p></label>
+    <input type="date"   class="form-control" id="date5" name="date">
+    <label><p class="text-primary">分類:</p></label>
+            <select id="select5" name="select" class="form-control">
+                <option>請選擇消費種類</option>
+                <option>餐飲費</option>
+                <option>娛樂費</option>
+                <option>交通費</option>
+                <option>生活費</option>
+                <option>其他</option>
+            </select>
+    <label for="number"><p class="text-primary">金額:</p></label>
+    <input type="number" class="form-control" id="number5" name="number" placeholder="輸入金額">
+
+
+  </form>
+
+  <label></label>
+  <form class="form-inline">
+    <label><p class="text-primary">消費日期:</p></label>
+    <input type="date"   class="form-control" id="date6" name="date">
+    <label><p class="text-primary">分類:</p></label>
+            <select id="select6" name="select" class="form-control">
+                <option>請選擇消費種類</option>
+                <option>餐飲費</option>
+                <option>娛樂費</option>
+                <option>交通費</option>
+                <option>生活費</option>
+                <option>其他</option>
+            </select>
+    <label for="number"><p class="text-primary">金額:</p></label>
+    <input type="number" class="form-control" id="number6" name="number" placeholder="輸入金額">
+
+
+  </form>
+
+  <label></label>
+  <form class="form-inline">
+    <label><p class="text-primary">消費日期:</p></label>
+    <input type="date"   class="form-control" id="date7" name="date">
+    <label><p class="text-primary">分類:</p></label>
+            <select id="select7" name="select" class="form-control">
+                <option>請選擇消費種類</option>
+                <option>餐飲費</option>
+                <option>娛樂費</option>
+                <option>交通費</option>
+                <option>生活費</option>
+                <option>其他</option>
+            </select>
+    <label for="number"><p class="text-primary">金額:</p></label>
+    <input type="number" class="form-control" id="number7" name="number" placeholder="輸入金額">
+
+
+  </form>
+
+  <label></label>
+  <form class="form-inline">
+    <label><p class="text-primary">消費日期:</p></label>
+    <input type="date"   class="form-control" id="date8" name="date">
+    <label><p class="text-primary">分類:</p></label>
+            <select id="select8" name="select" class="form-control">
+                <option>請選擇消費種類</option>
+                <option>餐飲費</option>
+                <option>娛樂費</option>
+                <option>交通費</option>
+                <option>生活費</option>
+                <option>其他</option>
+            </select>
+    <label for="number"><p class="text-primary">金額:</p></label>
+    <input type="number" class="form-control" id="number8" name="number" placeholder="輸入金額">
+
+
+  </form>
+  <label></label>
+  <form class="form-inline">
+    <label><p class="text-primary">消費日期:</p></label>
+    <input type="date"   class="form-control" id="date9" name="date">
+    <label><p class="text-primary">分類:</p></label>
+            <select id="select9" name="select" class="form-control">
+                <option>請選擇消費種類</option>
+                <option>餐飲費</option>
+                <option>娛樂費</option>
+                <option>交通費</option>
+                <option>生活費</option>
+                <option>其他</option>
+            </select>
+    <label for="number"><p class="text-primary">金額:</p></label>
+    <input type="number" class="form-control" id="number9" name="number" placeholder="輸入金額">
+
+  </form>
+  <label></label>
+  <form class="form-inline">
+    <label><p class="text-primary">消費日期:</p></label>
+    <input type="date"   class="form-control" id="date10" name="date">
+    <label><p class="text-primary">分類:</p></label>
+            <select id="select10" name="select" class="form-control">
+                <option>請選擇消費種類</option>
+                <option>餐飲費</option>
+                <option>娛樂費</option>
+                <option>交通費</option>
+                <option>生活費</option>
+                <option>其他</option>
+            </select>
+    <label for="number"><p class="text-primary">金額:</p></label>
+    <input type="number" class="form-control" id="number10" name="number" placeholder="輸入金額">
+
+
+  </form>
+  <button id="store" type="submit" class="btn btn-primary">儲存</button>
+ 
+
+</div>
+
+</body>
+
+
+
+<script> 
+
+        $(function () { 
+            let login = JSON.parse(localStorage.getItem('login')); 
+            if (login != null) { 
+                if (!!login.number1) { //login有account屬性 
+                    $('#number1').val(login.number1); 
+                } 
+             if (!!login.date1) { //login有pwd屬性 
+                    $('#date1').val(login.date1); 
+                } 
+             if (!!login.select1) { //login有pwd屬性 
+                    $('#select1').val(login.select1); 
+                } 
+                if (!!login.number2) { //login有account屬性 
+                    $('#number2').val(login.number2); 
+                } 
+             if (!!login.date2) { //login有pwd屬性 
+                    $('#date2').val(login.date2); 
+                } 
+             if (!!login.select2) { //login有pwd屬性 
+                    $('#select2').val(login.select2); 
+                } 
+                if (!!login.number3) { //login有account屬性 
+                    $('#number3').val(login.number3); 
+                } 
+             if (!!login.date3) { //login有pwd屬性 
+                    $('#date3').val(login.date3); 
+                } 
+             if (!!login.select3) { //login有pwd屬性 
+                    $('#select3').val(login.select3); 
+                } 
+                if (!!login.number4) { //login有account屬性 
+                    $('#number4').val(login.number4); 
+                } 
+             if (!!login.date4) { //login有pwd屬性 
+                    $('#date4').val(login.date4); 
+                } 
+             if (!!login.select4) { //login有pwd屬性 
+                    $('#select4').val(login.select4); 
+                } 
+                if (!!login.number5) { //login有account屬性 
+                    $('#number5').val(login.number5); 
+                } 
+             if (!!login.date5) { //login有pwd屬性 
+                    $('#date5').val(login.date5); 
+                } 
+             if (!!login.select5) { //login有pwd屬性 
+                    $('#select5').val(login.select5); 
+                } 
+                if (!!login.number6) { //login有account屬性 
+                    $('#number6').val(login.number6); 
+                } 
+             if (!!login.date6) { //login有pwd屬性 
+                    $('#date6').val(login.date6); 
+                } 
+             if (!!login.select6) { //login有pwd屬性 
+                    $('#select6').val(login.select6); 
+                } 
+                if (!!login.number7) { //login有account屬性 
+                    $('#number7').val(login.number7); 
+                } 
+             if (!!login.date7) { //login有pwd屬性 
+                    $('#date7').val(login.date7); 
+                } 
+             if (!!login.select7) { //login有pwd屬性 
+                    $('#select7').val(login.select7); 
+                } 
+             if (!!login.number8) { //login有account屬性 
+                    $('#number8').val(login.number8); 
+                } 
+             if (!!login.date8) { //login有pwd屬性 
+                    $('#date8').val(login.date8); 
+                } 
+             if (!!login.select8) { //login有pwd屬性 
+                    $('#select8').val(login.select8); 
+                } 
+            } 
+             if (!!login.number9) { //login有account屬性 
+
+                    $('#number9').val(login.number9); 
+                } 
+             if (!!login.date9) { //login有pwd屬性 
+
+                    $('#date9').val(login.date9); 
+                } 
+             if (!!login.select9) { //login有pwd屬性 
+
+                    $('#select9').val(login.select9); 
+                } 
+             if (!!login.number10) { //login有account屬性 
+
+                    $('#number10').val(login.number10); 
+                } 
+             if (!!login.date10) { //login有pwd屬性 
+
+                    $('#date10').val(login.date10); 
+                } 
+             if (!!login.select10) { //login有pwd屬性 
+
+                    $('#select10').val(login.select10); 
+                } 
+        }); 
+
+        $('#store').click(function () { 
+
+            let login = { 
+
+                'number1': $('#number1').val(), 
+                'date1': $('#date1').val(), 
+                'select1': $('#select1').val(), 
+                'number2': $('#number2').val(), 
+                'date2': $('#date2').val(), 
+                'select2': $('#select2').val(), 
+                'number3': $('#number3').val(), 
+                'date3': $('#date3').val(), 
+                'select3': $('#select3').val(), 
+                'number4': $('#number4').val(), 
+                'date4': $('#date4').val(), 
+                'select4': $('#select4').val(), 
+                'number5': $('#number5').val(), 
+                'date5': $('#date5').val(), 
+                'select5': $('#select5').val(), 
+                'number6': $('#number6').val(), 
+                'date6': $('#date6').val(), 
+                'select6': $('#select6').val(), 
+                'number7': $('#number7').val(), 
+                'date7': $('#date7').val(), 
+                'select7': $('#select7').val(), 
+                'number8': $('#number8').val(), 
+                'date8': $('#date8').val(), 
+                'select8': $('#select8').val(),
+                'number9': $('#number9').val(), 
+                'date9': $('#date9').val(), 
+                'select9': $('#select9').val(),
+                'number10': $('#number10').val(), 
+                'date10': $('#date10').val(), 
+                'select10': $('#select10').val(),
+            }; 
+
+            localStorage.setItem('login', JSON.stringify(login)); 
+            alert('資料已儲存!'); 
+        }); 
+    </script> 
+</html>
